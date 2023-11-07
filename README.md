@@ -11,3 +11,7 @@ As an architect, I want to be able to check
 
 if 1 m is equal to 100 cm
 If 100 cm is equal to 0.001 km
+
+
+
+As an architect, I want to be able to know that 1 m + 100 cm = 2 m, or 200 cm + 1 m = 300 cm

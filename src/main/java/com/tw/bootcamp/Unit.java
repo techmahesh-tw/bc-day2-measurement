@@ -1,22 +1,16 @@
 package com.tw.bootcamp;
 
-public class Unit {
-    private final int value;
+public enum Unit {
 
-    public Unit(int value) {
-        this.value = value;
+    CM(0.01f), KM(1000), METER(1);
+
+    final float factor;
+
+    Unit(float input) {
+        factor = input;
     }
 
-    public Unit getCm(int input) {
-        return new Unit(input);
+    float getFactor() {
+        return factor;
     }
-
-    public Unit getMeter(int input) {
-        return new Unit(input);
-    }
-
-    public Unit getKM(int input) {
-        return new Unit(input);
-    }
-
 }
