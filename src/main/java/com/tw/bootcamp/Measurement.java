@@ -12,4 +12,5 @@ public class Measurement {
     public boolean verify(int input) {
         return value == input;
     }
+
 }
