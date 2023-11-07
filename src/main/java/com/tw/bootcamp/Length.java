@@ -17,6 +17,8 @@ public class Length {
 
     public Length add(Length length2) {
         float result = (length2.unit.getFactor() * length2.value) + this.value;
+//        if (this.unit == Unit.CM)
+//            result = result * 100;
         return new Length(result, this.unit);
     }
 
